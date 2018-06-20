@@ -1,0 +1,10 @@
+
+create table usuario(
+	id integer not null auto_increment primary key, 
+    cpf varchar(20),
+    nome varchar(255),
+    login varchar(20),
+    senha varchar(20)
+);
+
+
